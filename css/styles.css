@@ -30,10 +30,12 @@ body {
 .back-view img{
     width: 100px;
     height: 100px;
+    background-color: white;
 }
 
-.card.active {
+.active {
     transform: rotateY(180deg);
+    backface-visibility: hidden;
 }
 
 .front-view {
