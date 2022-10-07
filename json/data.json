@@ -1,0 +1,82 @@
+[
+    {
+        "card_id": 1,
+        "card_img": "img/img_1.png",
+        "card_value": 1
+    },
+    {
+        "card_id": 2,
+        "card_img": "img/img_1.png",
+        "card_value": 1
+    },
+    {
+        "card_id": 3,
+        "card_img": "img/img_2.png",
+        "card_value": 2
+    },
+    {
+        "card_id": 4,
+        "card_img": "img/img_2.png",
+        "card_value": 2
+    },
+    {
+        "card_id": 5,
+        "card_img": "img/img_3.png",
+        "card_value": 3
+    },
+    {
+        "card_id": 6,
+        "card_img": "img/img_3.png",
+        "card_value": 3
+    },
+    {
+        "card_id": 7,
+        "card_img": "img/img_4.png",
+        "card_value": 4
+    },
+    {
+        "card_id": 8,
+        "card_img": "img/img_4.png",
+        "card_value": 4
+    },
+    {
+        "card_id": 9,
+        "card_img": "img/img_5.png",
+        "card_value": 5
+    },
+    {
+        "card_id": 10,
+        "card_img": "img/img_5.png",
+        "card_value": 5
+    },
+    {
+        "card_id": 11,
+        "card_img": "img/img_6.png",
+        "card_value": 6
+    },
+    {
+        "card_id": 12,
+        "card_img": "img/img_6.png",
+        "card_value": 6
+    },
+    {
+        "card_id": 13,
+        "card_img": "img/img_7.png",
+        "card_value": 7
+    },
+    {
+        "card_id": 14,
+        "card_img": "img/img_7.png",
+        "card_value": 7
+    },
+    {
+        "card_id": 15,
+        "card_img": "img/img_8.png",
+        "card_value": 8
+    },
+    {
+        "card_id": 16,
+        "card_img": "img/img_8.png",
+        "card_value": 8
+    }
+]
