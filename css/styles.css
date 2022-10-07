@@ -1,5 +1,55 @@
 /* Elemental Selectors */
-
+body {
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ecf0f1;
+}
 /* Class Selectors */
+.card {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.back-view {
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.back-view img{
+    width: 100px;
+    height: 100px;
+}
+
+.card.active {
+    transform: rotateY(180deg);
+}
+
+.front-view {
+    position: absolute;
+    padding: 10px 25px;
+    background: #fff;
+}
+
+.front-view i {
+    font-size: 75px;
+}
 
 /* ID Selectors */
+#card-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    padding: 20px;
+}
