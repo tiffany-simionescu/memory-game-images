@@ -6,6 +6,16 @@ body {
     justify-content: center;
     align-items: center;
     background: #ecf0f1;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: -20px;
+    /* padding-top: 0; */
 }
 /* Class Selectors */
 .card {

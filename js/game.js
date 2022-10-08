@@ -1,7 +1,7 @@
-
-
 let data;
 const cardBox = document.getElementById("card-box");
+let movesMadeCounter = 0;
+let playerMoves = 0;
 let firstClick = 0;
 let cardClickCount = 0;
 let cardFirstValue = 0;
@@ -50,6 +50,7 @@ const checkCard = (id, cardValue) => {
 
     if (firstClick == 0) {
         firstClick = 1;
+        movesMadeCounter++;
         card.classList.add('active');
         cardClickCount++;
         cardFirstValue = cardValue;
@@ -61,6 +62,7 @@ const checkCard = (id, cardValue) => {
 
         if (cardFirstValue != cardSecondValue) {
             cardClickCount++;
+            movesMadeCounter++;
             if (cardClickCount == 2) {
                 cardClickCount = 0;
                 firstClick = 0;
@@ -72,7 +74,13 @@ const checkCard = (id, cardValue) => {
         } else {
             firstClick = 0;
             cardClickCount = 0;
+            movesMadeCounter++;
         }
+    }
+
+    if (movesMadeCounter % 2 === 0) {
+        playerMoves++;
+        $(".moves-made").text(playerMoves);
     }
 }
 
